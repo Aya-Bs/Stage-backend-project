@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Controllers\ProjetStage\.git\ms-persist.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Controllers\ProjetStage\.git\COMMIT_EDITMSG" />
+    <None Include="Controllers\ProjetStage\.git\config" />
+    <None Include="Controllers\ProjetStage\.git\description" />
+    <None Include="Controllers\ProjetStage\.git\HEAD" />
+    <None Include="Controllers\ProjetStage\.git\hooks\applypatch-msg.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\commit-msg.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\post-update.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\pre-applypatch.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\pre-commit.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\pre-merge-commit.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\pre-push.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\pre-rebase.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\pre-receive.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\push-to-checkout.sample" />
+    <None Include="Controllers\ProjetStage\.git\hooks\update.sample" />
+    <None Include="Controllers\ProjetStage\.git\index" />
+    <None Include="Controllers\ProjetStage\.git\info\exclude" />
+    <None Include="Controllers\ProjetStage\.git\objects\16\31e30ae1e438ade6f8f20ad781144716ff97dd" />
+    <None Include="Controllers\ProjetStage\.git\objects\4b\825dc642cb6eb9a060e54bf8d69288fbee4904" />
+    <None Include="Controllers\ProjetStage\.vs\ProjetStage\config\applicationhost.config" />
+    <None Include="Controllers\ProjetStage\.vs\ProjetStage\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="Controllers\ProjetStage\.vs\slnx.sqlite" />
+    <None Include="Controllers\ProjetStage\ProjetStage.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\ProjetStage\.git\objects\info\" />
+    <Folder Include="Controllers\ProjetStage\.git\objects\pack\" />
+    <Folder Include="Controllers\ProjetStage\.git\refs\heads\" />
+    <Folder Include="Controllers\ProjetStage\.git\refs\tags\" />
+    <Folder Include="Controllers\ProjetStage\.vs\ProjetStage\FileContentIndex\" />
+  </ItemGroup>
+
+</Project>
